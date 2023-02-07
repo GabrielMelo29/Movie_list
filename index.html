@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista infinita</title>
+    
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <div class="secao-titulo">
+            <h1 class="titulo">Sorteio para lista infinita</h1>
+
+            <button class="btn-menu">
+                <i class="fa-solid fa-bars btn-icon"></i>
+            </button>
+            <div class="temas">
+                <div class="vermelho" data-color = "#fbfbfb #ffffff #190101 #f54748"></div>
+                <div class="azul" data-color = "#eff4f7 #ffffff #073944 #39a2db"></div>
+                <div class="verde" data-color = "#f9fafc #ffffff #182748 #42c3a7"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="secao-lista">
+        <div class="container">
+            <div class="lista">
+                <div class="conteudo">
+                    <form class="form-tafera">
+                        <input type="text" id="inputTitulo" placeholder="Adicione um título">
+                        <button type="submit" class="btn-tarefa" id="btnTitulo">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </form>
+
+                    <div class="filtro">
+                        <span id="todos" class="active">Todos</span>
+                        <span id="pendente">Pendente</span>
+                        <span id="visto">Visto</span>
+                    </div>
+
+                    <div class="lista-slide scrollbar">
+                        <ol class="lista-titulo" id="listaTitulos">
+                        </ol>    
+                    </div>
+                </div>
+                <div class="soteio">
+                    <button class="btn-sortear">Sortear</button>
+                    <h1 id="resultado"></h1>
+                </div>
+            </div>    
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/ea393de4c9.js" crossorigin="anonymous"></script>
+</body>
+</html>
