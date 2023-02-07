@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 A Lista infinita é um app para ajudar a registrar títulos em uma lista e também sortear um entre eles.
 
-- [Visite o projeto online](https://gabrielmelo29.github.io/Game_Mania)
+- [Visite o projeto online](https://gabrielmelo29.github.io/Movie_list)
 
 ---
 
